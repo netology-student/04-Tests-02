@@ -1,16 +1,18 @@
-# This is a sample Python script.
+# Проверим правильность работы Яндекс.Диск REST API. Написать тесты, проверяющий создание папки на Диске.
+# Используя библиотеку requests напишите unit-test на верный ответ и возможные отрицательные тесты на ответы с ошибкой
+#
+# Пример положительных тестов:
+#
+# Код ответа соответствует 200.
+# Результат создания папки - папка появилась в списке файлов.
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
+import yadisk_api
+import requests
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+
+
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
